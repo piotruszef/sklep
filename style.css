@@ -1,0 +1,105 @@
+.logo {
+    width: 150px ;
+    height: 150px ;
+}
+
+.flex-container {
+    display: flex;
+}
+.flex-container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topnav {
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 4rem;
+}
+
+.card {
+    background-color: grey;
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+    margin: 2px;
+}
+
+.search-container {
+    position: relative;
+    width: 300px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: 10px solid aqua;
+    border-radius: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+}
+
+.search-button {
+    position: absolute;
+    top: 10px;
+    right: 2px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 12px 12px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+#cart{
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+}
+
+
+ /* Dodaj style CSS dla paska kategorii */
+ .sidebar {
+    width: 200px; /* Ustaw szerokość paska */
+    background-color: aqua; /* Ustaw kolor tła */
+    padding: 20px; /* Dodaj wewnętrzne marginesy */
+    box-sizing: border-box; /* Ustaw box-sizing na border-box, aby padding nie wpływał na szerokość */
+    
+}
+
+.category-list {
+    list-style: none; /* Usuń domyślne style listy */
+    padding: 0;
+    margin: 0;
+}
+
+.category-item {
+    margin-bottom: 10px; /* Dodaj odstęp między kategoriami */
+}
+
+.category-link {
+    text-decoration: none; /* Usuń podkreślenie linków */
+    color: #000; /* Ustaw kolor tekstu */
+}
+
+.fifty {
+    width: 82.8%;
+}
+
+.sixty{
+    width: 18.4%;
+}
+
+body {
+    background-color: aqua;
+}
